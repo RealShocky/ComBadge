@@ -44,7 +44,7 @@ This Code of Conduct is adapted from the [Contributor Covenant](https://www.cont
 
 ## Contact
 
-If you have any questions, concerns, or suggestions regarding this Code of Conduct, please contact [INSERT CONTACT INFORMATION HERE].
+If you have any questions, concerns, or suggestions regarding this Code of Conduct, please contact mark.varkevisser@execs.com
 
 Thank you for your commitment to upholding these standards and contributing to a positive and inclusive community environment.
 
