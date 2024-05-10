@@ -4,17 +4,17 @@
 Ahoy! Welcome to the ComBadge Management System aboard the USS Enterprise. This remarkable system, inspired by the legendary Star Trek communicator badge, revolutionizes communication across the cosmos. With the ComBadge Management System, crew members can seamlessly connect, coordinate, and collaborate on missions, ensuring success in every endeavor.
 
 ## Features
-1. **Bluetooth Connectivity**: Our ComBadge employs cutting-edge Bluetooth technology to establish seamless connections with mobile devices. RealShocky can pair their ComBadge with a smartphone, ensuring uninterrupted connectivity wherever their mission takes them.
+1. **Bluetooth Connectivity**: Our ComBadge employs cutting-edge Bluetooth technology to establish seamless connections with mobile devices. Users can pair their ComBadge with a smartphone, ensuring uninterrupted connectivity wherever their mission takes them.
 
-2. **Voice Command Integration**: Activate the ComBadge with a simple voice command! RealShocky can simply say "Computer" followed by their desired action to initiate communication or issue commands, just like a true Starfleet officer.
+2. **Voice Command Integration**: Activate the ComBadge with a simple voice command! Users can simply say "Computer" followed by their desired action to initiate communication or issue commands, just like a true Starfleet officer.
 
-3. **Group Management**: Organize crew members into specialized groups such as Engineering, Bridge, and Medical. With the ComBadge Management System, RealShocky can effortlessly communicate with specific groups, ensuring efficient coordination during critical missions.
+3. **Group Management**: Organize crew members into specialized groups such as Engineering, Bridge, and Medical. With the ComBadge Management System, User's can effortlessly communicate with specific groups, ensuring efficient coordination during critical missions.
 
-4. **User Registration**: Registering the ComBadge with the USS Enterprise network unlocks enhanced features and personalized communication options for RealShocky. They can create their profile, join groups, and connect with fellow crew members across the galaxy.
+4. **User Registration**: Registering the ComBadge with the ComBadge network unlocks enhanced features and personalized communication options for Users. They can create their profile, join groups, and connect with fellow crew members across the galaxy.
 
-5. **Security and Encryption**: RealShocky's communications are safeguarded with advanced encryption protocols, ensuring the confidentiality of sensitive information. The ComBadge Management System prioritizes security, preserving the privacy of all crew members.
+5. **Security and Encryption**: User's communications are safeguarded with advanced encryption protocols, ensuring the confidentiality of sensitive information. The ComBadge Management System prioritizes security, preserving the privacy of all crew members.
 
-6. **Continuous Updates**: Our dedicated engineering team continuously enhances the ComBadge Management System with regular updates and security patches. RealShocky can stay up-to-date with the latest features and enhancements, maximizing communication efficiency.
+6. **Continuous Updates**: Our dedicated engineering team continuously enhances the ComBadge Management System with regular updates and security patches. Users can stay up-to-date with the latest features and enhancements, maximizing communication efficiency.
 
 ## Installation
 1. Clone the repository to your local machine:
