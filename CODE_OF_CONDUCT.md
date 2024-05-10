@@ -30,7 +30,7 @@ The following behaviors are considered unacceptable within our community:
 
 ## Reporting Violations
 
-If you witness or experience behavior that violates this Code of Conduct, please report it to the project maintainers immediately. You can report violations by contacting [INSERT CONTACT INFORMATION HERE].
+If you witness or experience behavior that violates this Code of Conduct, please report it to the project maintainers immediately. You can report violations by contacting [Mark.varkevisser@execs.com]
 
 All reports will be treated with confidentiality and will be thoroughly investigated. We are committed to taking appropriate action to address any violations and to ensure the safety and well-being of our community members.
 
