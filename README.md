@@ -10,7 +10,7 @@ Ahoy! Welcome to the ComBadge Management System aboard the USS Enterprise. This 
 
 3. **Group Management**: Organize crew members into specialized groups such as Engineering, Bridge, and Medical. With the ComBadge Management System, User's can effortlessly communicate with specific groups, ensuring efficient coordination during critical missions.
 
-4. **User Registration**: Registering the ComBadge with the ComBadge network unlocks enhanced features and personalized communication options for Users. They can create their profile, join groups, and connect with fellow crew members across the galaxy.
+4. **User Registration**: Registering a device such as; FAMEtek badge communicator, with the ComBadge network unlocks enhanced features and personalized communication options for Users. They can create their profile, join groups, and connect with fellow crew members across the galaxy.
 
 5. **Security and Encryption**: User's communications are safeguarded with advanced encryption protocols, ensuring the confidentiality of sensitive information. The ComBadge Management System prioritizes security, preserving the privacy of all crew members.
 
