@@ -4,9 +4,9 @@
 Ahoy! Welcome to the ComBadge Management System aboard the USS Enterprise. This remarkable system, inspired by the legendary Star Trek communicator badge, revolutionizes communication across the cosmos. With the ComBadge Management System, crew members can seamlessly connect, coordinate, and collaborate on missions, ensuring success in every endeavor.
 
 ## Features
-1. **Bluetooth Connectivity**: Our ComBadge employs cutting-edge Bluetooth technology to establish seamless connections with mobile devices. Users can pair their ComBadge with a smartphone, ensuring uninterrupted connectivity wherever their mission takes them.
+1. **Bluetooth Connectivity**: Our ComBadge Management System employs cutting-edge Bluetooth technology to establish seamless connections with mobile devices & FAMEtek Combadge. Users can pair their DEVICE with a smartphone, ensuring uninterrupted connectivity wherever their mission takes them.
 
-2. **Voice Command Integration**: Activate the ComBadge with a simple voice command! Users can simply say "Computer" followed by their desired action to initiate communication or issue commands, just like a true Starfleet officer.
+2. **Voice Command Integration**: Activate the ComBadge Management Sysyem with a simple voice command! Users can simply say "Computer" followed by their desired action to initiate communication or issue commands, just like a true Starfleet officer.
 
 3. **Group Management**: Organize crew members into specialized groups such as Engineering, Bridge, and Medical. With the ComBadge Management System, User's can effortlessly communicate with specific groups, ensuring efficient coordination during critical missions.
 
