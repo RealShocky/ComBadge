@@ -1,7 +1,7 @@
-// LoginScreen.js
+// LoginScreen.js - Improved error handling and feedback.
 
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
@@ -12,12 +12,10 @@ const LoginScreen = ({ navigation }) => {
   const handleLogin = () => {
     firebase.auth().signInWithEmailAndPassword(email, password)
       .then(() => {
-        // Login successful, navigate to the home screen
         navigation.navigate('Home');
       })
       .catch(error => {
-        console.error('Login error:', error.message);
-        // Handle login error (e.g., display error message)
+        Alert.alert('Login Failed', error.message);
       });
   };
 
