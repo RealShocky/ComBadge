@@ -1,7 +1,7 @@
-// RegisterScreen.js
+// RegisterScreen.js - Added user feedback for registration errors.
 
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
@@ -12,12 +12,10 @@ const RegisterScreen = ({ navigation }) => {
   const handleRegister = () => {
     firebase.auth().createUserWithEmailAndPassword(email, password)
       .then(() => {
-        // Registration successful, navigate to the home screen
         navigation.navigate('Home');
       })
       .catch(error => {
-        console.error('Registration error:', error.message);
-        // Handle registration error (e.g., display error message)
+        Alert.alert('Registration Failed', error.message);
       });
   };
 
