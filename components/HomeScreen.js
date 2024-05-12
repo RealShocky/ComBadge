@@ -1,16 +1,14 @@
-// HomeScreen.js
+// HomeScreen.js - Added user feedback for logout errors.
 
 import React, { useEffect } from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet, Alert } from 'react-native';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const HomeScreen = ({ navigation }) => {
   useEffect(() => {
-    // Check if user is logged in
     firebase.auth().onAuthStateChanged(user => {
       if (!user) {
-        // If user is not logged in, navigate to the login screen
         navigation.navigate('Login');
       }
     });
@@ -19,11 +17,10 @@ const HomeScreen = ({ navigation }) => {
   const handleLogout = () => {
     firebase.auth().signOut()
       .then(() => {
-        // Sign-out successful, navigate to login screen
         navigation.navigate('Login');
       })
       .catch(error => {
-        console.error('Logout error:', error.message);
+        Alert.alert('Logout Failed', error.message);
       });
   };
 
