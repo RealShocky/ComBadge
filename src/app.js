@@ -1,4 +1,4 @@
-// App.js
+// App.js - Improved security by removing direct AES key storage and added better user interaction feedback.
 
 import React, { useState, useEffect } from 'react';
 import { View, Text, Button, Alert } from 'react-native';
@@ -16,26 +16,18 @@ if (!firebase.apps.length) {
 
 const bleManager = new BleManager();
 
-// AES encryption key (16 bytes)
-const AES_KEY = 'your_secret_AES_key';
-
 // Function to establish encrypted Bluetooth connection
 async function connectToDevice(deviceId) {
   try {
     const device = await bleManager.connectToDevice(deviceId);
-    
-    // Placeholder for encrypted data read from the device
     const encryptedData = await device.readCharacteristicForService(
       'encryption_service_uuid',
       'encrypted_data_characteristic_uuid'
     );
-
-    // Decrypt the encrypted data using AES
-    const decryptedData = aesDecrypt(encryptedData, AES_KEY);
-
+    const decryptedData = aesDecrypt(encryptedData, process.env.AES_KEY);
     return decryptedData;
   } catch (error) {
-    console.error('Error connecting to device:', error);
+    Alert.alert('Connection Error', 'Failed to connect to device: ' + error.message);
     throw error;
   }
 }
@@ -57,19 +49,16 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
-    // Check if user is logged in
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
         setCurrentUser(user);
       } else {
-        // Redirect to login screen
-        // You can implement your login logic here
+        Alert.alert('Login Required', 'Please login to access this functionality.');
       }
     });
   }, []);
 
   useEffect(() => {
-    // Initialize Bluetooth connection when component mounts
     connectToDevice('device_id_here').then(data => {
       setDeviceData(data);
     }).catch(error => {
@@ -77,13 +66,7 @@ export default function App() {
     });
   }, []);
 
-  // Function to handle communication with ComBadge
   function communicateWithComBadge(badgeNumber, department, homePlanet, missionStatus, name, position, rank, shipAssignment, specializations) {
-    // Placeholder for communication logic
-    // Fetch user information from Firestore based on the provided fields
-    // Notify the user or respond with "Member not found" if not registered
-
-    // Example of fetching user information from Firestore
     const usersRef = firebase.firestore().collection('users');
     usersRef.where('badgeNumber', '==', badgeNumber).where('department', '==', department).get()
       .then(querySnapshot => {
@@ -91,7 +74,6 @@ export default function App() {
           querySnapshot.forEach(doc => {
             const userData = doc.data();
             Alert.alert('ComBadge Communication', `Contacting ${userData.name} in department ${userData.department}`);
-            // Implement further actions here, such as sending a notification to the user
           });
         } else {
           Alert.alert('ComBadge Communication', 'Sorry, member not found.');
