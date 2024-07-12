@@ -34,8 +34,14 @@ Ahoy! Welcome to the ComBadge Management System aboard the USS Enterprise. This 
 ## Contributing
 Join us on our mission to advance communication technology by contributing to the ComBadge Management System. Whether you're a seasoned developer or a passionate Star Trek enthusiast, there's a place for you in our crew. Check out our [contributing guidelines](CONTRIBUTING.md) to get started.
 
-## License
-This project is licensed under the [GNU General Public License v3.0](LICENSE.md). Feel free to explore, innovate, and boldly go where no one has gone before with the ComBadge Management System.
+# ComBadge Proprietary License
+
+© 2024 ComBadge Inc. All rights reserved.
+
+This software and associated documentation files (the "Software") are proprietary and confidential.
+Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited.
+
+For licensing information, please contact: [mark.varkevisser@execs.com]
 
 ## Acknowledgments
 We extend our deepest gratitude to the visionaries of Star Trek for inspiring us to push the boundaries of technology and exploration. Together, we'll continue to boldly explore the final frontier.
